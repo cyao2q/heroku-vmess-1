@@ -29,8 +29,6 @@ tls: tls
 path: /
 ```
 
-## 经测试发现，AlterID设为64时，无法正常访问，应设为0，可联通
-
 ## 接入 CloudFlare
 
 以下两种方式均可以将应用接入 CloudFlare，从而在一定程度上提升速度。
