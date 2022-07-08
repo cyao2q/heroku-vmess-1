@@ -18,23 +18,16 @@
 
  4. 回到专案首页，点击上面的链接以部署 V2Ray
 
-### 变量
+### 如何使用
 
-对部署时需设定的变量名称做如下说明。
-
-| 变量 | 默认值 | 说明 |
-| :--- | :--- | :--- |
-| `ID` | `ad806487-2d26-4636-98b6-ab85cc8521f7` | VMess 用户主 ID，用于身份验证，为 UUID 格式 |
-| `WSPATH` | `/` | WebSocket 所使用的 HTTP 协议路径 |
-
-``
+```
 address: yourAppName.herokuapp.com
 port: 443
-id: Your entered id
+id: Your entered id (ad806487-2d26-4636-98b6-ab85cc8521f7)
 net: ws
 tls: tls
 path: /
-``
+```
 
 ## 经测试发现，AlterID设为64时，无法正常访问，应设为0，可联通
 
